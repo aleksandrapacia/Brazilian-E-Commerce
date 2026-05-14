@@ -17,6 +17,8 @@ The dataset is available [here](https://www.kaggle.com/datasets/olistbr/brazilia
 - Data Cleaning: Categorical text data was processed (and translated where necessary) to ensure readable, interpretable outputs for the final business segments.
 - Feature Scaling (StandardScaler): Because revenue values mathematically dwarf order volumes , StandardScaler was applied to normalize the dataset. This critical step ensures the distance-based K-Means algorithm weighs both volume and income equally, preventing massive revenue numbers from completely skewing the cluster assignments.
 
+### Exploratory data analysis (EDA)
+- 
   
 ### Pivot table
 <img width="2218" height="1266" alt="image" src="https://github.com/user-attachments/assets/6d8d91bf-d6d6-42cf-95ae-029c156987ac" />
